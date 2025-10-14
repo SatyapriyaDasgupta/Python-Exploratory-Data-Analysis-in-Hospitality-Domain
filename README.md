@@ -9,10 +9,10 @@ The goal is to understand the data, prepare it for analysis, and deliver reports
 ## Project Structure
 ```
 .
-├── data/
-│ └── <dataset files>.csv # Original datasets
+├── datasets/
+│ └── Contains the datasets
 ├── reports/
-│ └── <adhoc reports>.csv/.xlsx # Generated reports from the analysis
+│ └── Contains the generated reports from the analysis.
 ├── notebooks/
 │ └── EDA_and_Adhoc_Analysis.ipynb # Main notebook with EDA, data cleaning, and ad-hoc reporting
 └── README.md # Project documentation
