@@ -46,5 +46,3 @@ The main notebook, `data_exploration_and_reports.ipynb`, follows this workflow:
 - The project is modular: datasets, notebook, and reports are separated for clarity.
 - All intermediate and final results are saved in the `reports/` folder.
 - Visualizations are included in the notebook to provide clear insights.
-## License
-This project is licensed under the MIT License.
