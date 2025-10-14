@@ -13,27 +13,28 @@ The goal is to understand the data, prepare it for analysis, and deliver reports
 │ └── Contains the datasets
 ├── reports/
 │ └── Contains the generated reports from the analysis.
-├── notebooks/
-│ └── EDA_and_Adhoc_Analysis.ipynb # Main notebook with EDA, data cleaning, and ad-hoc reporting
-└── README.md # Project documentation
+├── data_exploration_and_reports.ipynb/
+│ └── Main notebook with EDA, data cleaning, and ad-hoc reports
+└── README.md
+│ └── Project documentation
 ```
 
 ### Notebook Workflow
-The main notebook, `EDA_and_Adhoc_Analysis.ipynb`, follows this workflow:
+The main notebook, `data_exploration_and_reports.ipynb`, follows this workflow:
 
 1. **Exploratory Data Analysis (EDA)**
    - Importing and inspecting the data
    - Identifying missing, inconsistent, or faulty data
-   - Visualizing trends, distributions, and relationships
+   - Visualizing trends and distributions
 
 2. **Data Cleaning & Transformation**
    - Handling missing values and outliers
    - Transforming data into a suitable format for analysis
-   - Creating derived variables where necessary
+   - Creating derived dataframes where necessary
 
 3. **Ad-hoc Analysis & Report Generation**
    - Answering specific questions provided by stakeholders
-   - Generating tables, charts, and insights for each request
+   - Generating tables, charts, and insights for the provided requests
    - Exporting results as CSV and Excel reports for further use
 
 ## How to Use
