@@ -7,14 +7,16 @@ based on specific questions provided.
 The goal is to understand the data, prepare it for analysis, and deliver reports that answer business questions in a clear and structured manner.
 
 ## Project Structure
+'''
 .
-├── data/ # Original datasets
-│ └── <dataset files>.csv
-├── reports/ # Generated reports (CSV/Excel)
-│ └── <adhoc reports>.csv / .xlsx
+├── data/
+│ └── <dataset files>.csv # Original datasets
+├── reports/
+│ └── <adhoc reports>.csv/.xlsx # Generated reports from the analysis
 ├── notebooks/
-│ └── EDA_and_Adhoc_Analysis.ipynb # Main analysis notebook
+│ └── EDA_and_Adhoc_Analysis.ipynb # Main notebook with EDA, data cleaning, and ad-hoc reporting
 └── README.md # Project documentation
+'''
 
 ### Notebook Workflow
 The main notebook, `EDA_and_Adhoc_Analysis.ipynb`, follows this workflow:
