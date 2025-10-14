@@ -16,7 +16,7 @@ The goal is to understand the data, prepare it for analysis, and deliver reports
 ├── data_exploration_and_reports.ipynb/
 │ └── Main notebook with EDA, data cleaning, and ad-hoc reports
 └── README.md
-│ └── Project documentation
+  └── Project documentation
 ```
 
 ### Notebook Workflow
